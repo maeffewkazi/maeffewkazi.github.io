@@ -5029,6 +5029,9 @@ body {
   background-repeat: no-repeat;
 }
 @media (max-width: 1024px) {
+  .header-button {
+    transform: rotate(-90deg);
+  }
   .home-hero-headline {
     padding-top: 30px;
     font-family: Inter;
