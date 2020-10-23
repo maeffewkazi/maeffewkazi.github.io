@@ -2660,7 +2660,7 @@ body {
 	animation-duration: 35s;
 	-webkit-animation-timing-function: steps(29);
 	animation-timing-function: steps(29);
-	background-image: url(assets/animation-base5e1f.png?v=2)
+	background-image: url(/assets/imgs/home/animation_club.jpg)
 }
 
 .animation.animation-base.active .animation-image {
