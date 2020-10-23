@@ -11,13 +11,20 @@ body {
 
 .carousel {
   position: fixed;
-  width: 50%;
+  width: 100%;
   height: 100%;
   overflow: hidden;
   margin: 0 auto;
   border-right: 1px solid black;
 }
-
+@media (min-width:1024px) {
+  .carousel {
+    position: fixed;
+    width: 50%;}
+  }
+  
+  
+  
 .carousel:hover .slide:after,
 .carousel:hover .counter,
 .carousel:hover .slide:before {
