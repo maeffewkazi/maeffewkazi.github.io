@@ -1657,7 +1657,7 @@ a:hover {
 
 @media (max-width: 1024px) {
   .main-separator {
-    border-bottom: 0px;
+    border-bottom: 1px solid #000;
   }
 }
 
