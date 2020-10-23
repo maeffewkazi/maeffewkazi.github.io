@@ -1954,8 +1954,8 @@ body {
 
 .logo svg {
   display: block;
-  height: 34px;
-  width: 34px;
+  height: 40px;
+  width: 40px;
 }
 
 @media (min-width: 1024px) {
@@ -5005,4 +5005,52 @@ body {
 
   /* Internet Explorer */
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.home-hero-headline {
+  font-family: Inter;
+  font-size: 70px;
+  text-align: center;
+  font-weight: 700;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.home-hero-subheadline {
+  font-size: 40px;
+  text-align: center;
+}
+.home-hero {
+  height: 100vh;
+  background-image: url("/assets/imgs/home/home-desktop-trans2.png");
+  background-size: 60vw auto;
+  background-position: bottom center;
+  background-position: fixed;
+  background-repeat: no-repeat;
+}
+@media (max-width: 1024px) {
+  .home-hero-headline {
+    padding-top: 30px;
+    font-family: Inter;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 700;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .home-hero-subheadline {
+    font-size: 30px;
+  }
+  .hide-mobile {
+    display: none;
+  }
+  .home-hero {
+    height: 100vh;
+    background-image: url("/assets/imgs/home/bg.png");
+    background-size: 60vw auto;
+    background-position: bottom center;
+    background-position: fixed;
+    background-repeat: no-repeat;
+  }
 }
