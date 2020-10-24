@@ -5025,11 +5025,11 @@ body {
   font-size: 40px;
   text-align: center;
 }
-.home-hero {
-  height: 100vh;
-  background-image: url("/assets/imgs/home/home-desktop-trans2.png");
-  background-size: 60vw auto;
-  background-position: bottom center;
+.home-bg {
+  height: 80vh;
+  background-image: url("/assets/imgs/home/newhome012.png");
+  background-size: 100vw auto;
+  background-position: bottom right;
   background-position: fixed;
   background-repeat: no-repeat;
 }
