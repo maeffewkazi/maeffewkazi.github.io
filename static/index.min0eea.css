@@ -5053,11 +5053,11 @@ body {
   .hide-mobile {
     display: none;
   }
-  .home-hero {
+  .home-bg {
     height: 100vh;
-    background-image: url("/assets/imgs/home/bg.png");
-    background-size: 60vw auto;
-    background-position: bottom center;
+    background-image: url("/assets/imgs/home/homebg.png");
+    background-size: 80vw auto;
+    background-position: bottom right;
     background-position: fixed;
     background-repeat: no-repeat;
   }
