@@ -3847,7 +3847,7 @@ body {
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
     padding: 12px 15px 25px;
-    width: 29.52756%;
+    width: 33.3%;
   }
 }
 
@@ -3878,17 +3878,18 @@ body {
     flex: 0 0 auto;
     padding: 12px 15px;
     position: static;
+    width: 33.3%;
   }
 }
 
 .footer-logo svg {
-  height: 17px;
-  width: 127px;
+  height: 39px;
+  width: 89px;
 }
 
 @media (min-width: 1024px) {
   .footer-logo svg {
-    height: 25px;
+    height: 50px;
     width: 186px;
   }
 }
@@ -3903,6 +3904,7 @@ body {
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
     border-right: 1px solid #000;
+    width: 33%;
   }
 }
 
@@ -5059,4 +5061,27 @@ body {
     background-position: fixed;
     background-repeat: no-repeat;
   }
+}
+
+@media (max-width: 1024px) {
+  .footer-logo {
+    position: absolute;
+    left: 75%;
+    bottom: 145px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .glue-icon {
+    right: -99px !important;
+  }
+}
+
+#table_114 {
+  width: 100%;
+  padding-left: 10%;
+}
+
+.col_last {
+  text-align: right;
 }
