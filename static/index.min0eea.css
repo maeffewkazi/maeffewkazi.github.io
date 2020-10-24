@@ -3902,6 +3902,7 @@ body {
     -webkit-box-flex: 1;
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
+    border-right: 1px solid #000;
   }
 }
 
@@ -4627,8 +4628,9 @@ body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: solid #000;
-  border-width: 0 1px 1px 0;
+  border-right: 10px solid white;
+  border-bottom: 10px solid white;
+
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4653,21 +4655,22 @@ body {
   }
 }
 
-.about-logos-item:nth-child(3n) {
+.about-logos-item:nth-child(4n) {
   border-right-width: 0;
 }
 
 @media (min-width: 1024px) {
-  .about-logos-item:nth-child(3n) {
-    border-right-width: 1px;
+  .about-logos-item:nth-child(4n) {
+    border-right-width: 0px;
   }
 }
-
+/**
 @media (min-width: 1024px) {
   .about-logos-item:nth-child(5n) {
     border-right: 1px;
   }
 }
+**/
 
 .proof-intro,
 .proof-intro-img {
