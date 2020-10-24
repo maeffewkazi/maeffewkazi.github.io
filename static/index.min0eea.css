@@ -5026,9 +5026,9 @@ body {
   text-align: center;
 }
 .home-bg {
-  height: 80vh;
-  background-image: url("/assets/imgs/home/newhome012.png");
-  background-size: 100vw auto;
+  height: 100vh;
+  background-image: url("/assets/imgs/home/homebg.png");
+  background-size: 40vw auto;
   background-position: bottom right;
   background-position: fixed;
   background-repeat: no-repeat;
