@@ -5085,3 +5085,10 @@ body {
 .col_last {
   text-align: right;
 }
+
+/* Avoid Chrome to see Safari hack */
+@supports (-webkit-touch-callout: none) {
+  .fill-vp {
+    height: -webkit-fill-available;
+  }
+}
