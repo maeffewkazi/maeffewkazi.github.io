@@ -4637,7 +4637,6 @@ strong {
   position: relative;
   overflow: hidden;
   margin: 12px 20px;
-  padding: 10px 0px;
   background-color: transparent;
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
@@ -4656,7 +4655,7 @@ strong {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 10%;
+  width: 15%;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
@@ -4751,13 +4750,13 @@ strong {
       from(rgba(236, 233, 227, 0.94)),
       to(rgba(236, 233, 227, 0.94))
     ),
-    url("../5e87a9eaf99d7c7ec168f807_Loeven-Morcel-Logo-Black%20.svg");
+    url("");
   background-image: linear-gradient(
       180deg,
       rgba(236, 233, 227, 0.94),
       rgba(236, 233, 227, 0.94)
     ),
-    url("../5e87a9eaf99d7c7ec168f807_Loeven-Morcel-Logo-Black%20.svg");
+    url("");
   background-position: 0px 0px, 50% 50%;
   background-size: auto, auto 70%;
   background-repeat: repeat, no-repeat;
@@ -4771,13 +4770,13 @@ strong {
       from(rgba(236, 233, 227, 0.96)),
       to(rgba(236, 233, 227, 0.96))
     ),
-    url("../5e9c412138205a687dd431bf_Logo-Oh-Mobilier-Black.svg");
+    url("");
   background-image: linear-gradient(
       180deg,
       rgba(236, 233, 227, 0.96),
       rgba(236, 233, 227, 0.96)
     ),
-    url("../5e9c412138205a687dd431bf_Logo-Oh-Mobilier-Black.svg");
+    url("");
   background-position: 0px 0px, 50% 50%;
   background-size: auto, auto 70%;
   background-repeat: repeat, no-repeat;
@@ -5589,8 +5588,10 @@ strong {
   font-family: var(--main-heading-font);
   font-size: 36px;
   line-height: 1.25em;
-  font-weight: 400;
-  letter-spacing: 0.25px;
+  font-weight: 700;
+  letter-spacing: -0.25px;
+  text-align: justify;
+  }
 }
 
 .quote-div {
@@ -5796,7 +5797,7 @@ strong {
   width: 100%;
   height: 100%;
   background-color: #000;
-  background-image: url("../5e88e32906f6703ef0cda6f5_Voir-2.svg");
+  background-image: url("");
   background-position: 48% 52%;
   background-size: 70%;
   background-repeat: no-repeat;
@@ -5804,7 +5805,7 @@ strong {
 }
 
 .slider-link-frame.view {
-  background-image: url("../5ecd81423542c4a970e16a42_View.svg");
+  background-image: url("");
   background-position: 50% 52%;
 }
 
@@ -5935,7 +5936,7 @@ strong {
   width: 18vw;
   height: 18vw;
   background-color: #fff;
-  background-image: url("../../../d3e54v103j8qbb.cloudfront.net/img/background-image.svg");
+  background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -5965,7 +5966,7 @@ strong {
 }
 
 .cta-link.mbm-exclusion {
-  color: var(--main-content-color);
+  color: white;
 }
 
 .footer-brand {
@@ -6843,7 +6844,7 @@ strong {
   height: 18vw;
   max-height: 300px;
   min-height: 240px;
-  background-image: url("../5f85d58b37f47d30445e51fc_HALO_03_miseEnContexte_01-2.jpg");
+  background-image: url("");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -8555,9 +8556,9 @@ strong {
         from(null),
         to(null)
       ),
-      url("../5e87a9eaf99d7c7ec168f807_Loeven-Morcel-Logo-Black%20.svg");
+      url("/assets/imgs/logo_youandeva.svg");
     background-image: linear-gradient(180deg, null, null),
-      url("../5e87a9eaf99d7c7ec168f807_Loeven-Morcel-Logo-Black%20.svg");
+      url("/assets/imgs/logo_youandeva.svg");
     background-size: auto, auto 55%;
   }
   .section._60.oh {
@@ -8568,9 +8569,9 @@ strong {
         from(null),
         to(null)
       ),
-      url("../5e9c412138205a687dd431bf_Logo-Oh-Mobilier-Black.svg");
+      url("/assets/imgs/logo_youandeva.svg");
     background-image: linear-gradient(180deg, null, null),
-      url("../5e9c412138205a687dd431bf_Logo-Oh-Mobilier-Black.svg");
+      url("/assets/imgs/logo_youandeva.svg");
     background-size: auto, auto 55%;
   }
   .container.cta {
@@ -9254,6 +9255,7 @@ strong {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
+    border-bottom: 1px solid var(--main-content-color);
   }
   .nav-container {
     position: fixed;
@@ -10911,6 +10913,32 @@ strong {
 .gallery-im {
   width:100%;
 }
+.button {
+cursor: pointer;
+display: inline-block;
+text-align: center;
+white-space: nowrap;
+font-size: 17px;
+line-height: 1.17648;
+font-weight: 400;
+letter-spacing: -.022em;
+min-width: 28px;
+padding-left: 16px;
+padding-right: 16px;
+padding-top: 8px;
+padding-bottom: 8px;
+border-radius: 18px;
+background: #0071e3;
+color: #fff;
+}
+
+.hero-link {
+font-size: 21px;
+line-height: 1.381;
+font-weight: 400;
+letter-spacing: .011em;
+color: #2997ff;
+}
 @media screen and (max-width: 767px) {
   .halfwidth {
     width:80vw;
@@ -10919,43 +10947,3 @@ strong {
   }
 }
   
-@font-face {
-  font-family: "Made mirage webfont";
-  src: url("../5e87a917acdbb59c64328390_made_mirage_bold-webfont.woff")
-    format("woff");
-  font-weight: 700;
-  font-style: normal;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Made mirage webfont";
-  src: url("../5e87a91df99d7c253068f188_made_mirage_black-webfont.woff")
-    format("woff");
-  font-weight: 900;
-  font-style: normal;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Made mirage webfont";
-  src: url("../5e87a96fab1cf805a899bb4d_made_mirage_medium-webfont.woff")
-    format("woff");
-  font-weight: 500;
-  font-style: normal;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Made mirage webfont";
-  src: url("../5e87a982ab1cf8ec4199bb8a_made_mirage_regular-webfont.woff")
-    format("woff");
-  font-weight: 400;
-  font-style: normal;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Made mirage webfont";
-  src: url("../5e87a98fcce5fb4c71a4fd4e_made_mirage_thin-webfont.woff")
-    format("woff");
-  font-weight: 100;
-  font-style: normal;
-  font-display: auto;
-}
