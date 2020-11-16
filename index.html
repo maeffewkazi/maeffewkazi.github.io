@@ -212,7 +212,7 @@
       <!-- <div data-w-id="d227c0a1-ff73-7754-6b85-12d791d391ec" class="signature-wrapper">
          <div data-w-id="5dd2004e-4758-d85f-2d29-7ba292365082" data-animation-type="lottie" data-src="5da9dec58555baba0b1ee154/5f74b239ea37333f592da336_asgerkrause-signature.json" data-loop="0" data-direction="1" data-autoplay="0" data-is-ix2-target="1" data-renderer="svg" data-default-duration="3.036369579362504" data-duration="0" class="signature"></div>
       </div> -->
-      <div data-w-id="50b6328a-770d-1286-2a5e-28d52e3b25f5" class="barba-wrapper">
+      <div data-w-id="50b6328a-770d-1286-2a5e-28d52e3b25f5" class="barba-wrapper" style="opacity: 1 !important;">
         <!--  <div class="cookie-container">
             <div class="cookie-message">1. You need to be over 18 years old to enter.<br/><br/>2. We use cookies to make the experience <br>this awesome.<a href="legal/privacy-policy.html" title="Read about your privacy" class="link-span">learn more / privacy policy</a></div>
             <div data-w-id="0fb56ca3-d0ea-4502-3b95-458c90e42816" class="cookie-button-wrapper">
@@ -950,7 +950,7 @@
          });
       </script>
  
-      <script>
+     <!-- <script>
          var FadeTransition = Barba.BaseTransition.extend({
            start: function() {
              Promise
@@ -959,7 +959,7 @@
            },
          
            fadeOut: function() {
-             return $(this.oldContainer).animate({ opacity: 0 }).promise();
+             return $(this.oldContainer).animate({ opacity: 1 }).promise();
            },
          
            fadeIn: function() {
@@ -993,7 +993,7 @@
          });
          
          Barba.Pjax.start();
-      </script>
+      </script> -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js" type="text/javascript"></script>
       <script>
          const letterWrapClass = 'letter-wrap';
@@ -1067,6 +1067,12 @@
          verticalCentered: true
            });
       </script>
+      <style> 
+         
+         .barba-wrapper {
+            opacity: 1 !important;
+         }
+      </style>
    </body>
   
 </html>
