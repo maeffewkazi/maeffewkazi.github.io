@@ -182,6 +182,26 @@
          <div data-w-id="5dd2004e-4758-d85f-2d29-7ba292365082" data-animation-type="lottie" data-src="5da9dec58555baba0b1ee154/5f74b239ea37333f592da336_asgerkrause-signature.json" data-loop="0" data-direction="1" data-autoplay="0" data-is-ix2-target="1" data-renderer="svg" data-default-duration="3.036369579362504" data-duration="0" class="signature"></div>
       </div> -->
       <div data-w-id="50b6328a-770d-1286-2a5e-28d52e3b25f5" class="barba-wrapper" style="opacity: 1 !important;">
+         
+         <div class="header">
+             <div class="icon icon-apple">escrtd™</div>
+             <div class="burger-container">
+               <div id="burger">
+                 <div class="bar topBar"></div>
+                 <div class="bar btmBar"></div>
+               </div>
+             </div>
+             
+             <ul class="menu">
+               
+               <li class="menu-item"><a href="#">Models</a></li>
+               <li class="menu-item"><a href="#">Information</a></li>
+               <li class="menu-item"><a href="#">Contact</a></li>
+               
+               
+             </ul>
+             
+           </div>
          <div class="page-nav">
             <div><h1 class="case-first-letter outlined-black" style="padding-top:5px; font-size:2.5vw;">Laura</h1></div> 
             <div style="position: absolute; right:0px">ABOUT | GALLERY </div>
@@ -1398,6 +1418,15 @@
          verticalCentered: true
            });
       </script>
+      <script>(function(){
+          var burger = document.querySelector('.burger-container'),
+              header = document.querySelector('.header');
+          
+          burger.onclick = function() {
+              header.classList.toggle('menu-opened');
+          }
+      }());
+   </script>
       <style> 
          
          .barba-wrapper {
