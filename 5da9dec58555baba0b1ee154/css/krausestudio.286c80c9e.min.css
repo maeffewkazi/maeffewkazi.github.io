@@ -7871,13 +7871,25 @@ strong {
     height: 38vh
   }
   .right-head {
-    right: auto;
-    bottom: 10px;
+    right: 27%;
+    bottom: -10px;
     -webkit-box-align: start;
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
     align-items: flex-start;
-    transform: none
+    transform: none;
+    /* background: rgba(0, 0, 0, 0.46); */
+    width: 50%;
+    background-color: rgba(25, 25, 25, 0.93)!important;
+    -webkit-backdrop-filter: blur(10px) brightness(98%);
+    backdrop-filter: blur(10px) brightness(98%);
+    padding: 10px;
+    padding-bottom: 6px;
+    border-top: 0.5px solid white;
+    border-left: 0.5px solid white;
+    border-right: 0.5px solid white;
+    height: 65px;
+    transform: scale(.7)
   }
   .left-head.outlined-white {
     left: auto;
@@ -8570,7 +8582,7 @@ strong {
   width: 50px;
   height: 50px;
   text-align: center;
-  color: black;
+  
   font-size: 22px;
   left: 50%;
   -webkit-transform: translateX(-50%);

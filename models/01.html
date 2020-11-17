@@ -159,7 +159,8 @@
                /* Custom styling for devices with dark-mode */
                @media (prefers-color-scheme: dark) {
                body, .loading-fill, .small-field, .large-field {background-color: #282828; color: #ccc;}
-               .navigation, .cookie-container, .search-father, .page-nav {background-color: rgba(25, 25, 25, 0.35)!important; color: #ccc;}
+               .navigation, .cookie-container, .search-father, .page-nav, .header {background-color: rgba(25, 25, 25, 0.35)!important; color: #ccc;}
+               .bar {background-color: #ccc !important;}
                .signature-wrapper {background-color: rgba(40, 40, 40, 0.9)}
                .outlined-black {-webkit-text-stroke: 0.75px #ccc; color: transparent}
                .outlined-black.on-hover:hover {color: #ccc}
@@ -601,7 +602,7 @@
          </nav>
          <div id="fullpage" class="left-container fullpage-wrap">
             
-                    <div data-w-id="5a6b1960-465e-1880-e645-398cf037320c" class="case-title-section">
+                    <!-- <div data-w-id="5a6b1960-465e-1880-e645-398cf037320c" class="case-title-section">
                      <div class="handover-wrapper special">
                        <div class="id">Handover</div>
                        <div class="id">→</div>
@@ -648,18 +649,18 @@
                           </a>
                         </div>
                        </div>
-                     </div> -->
-                    </div>
+                     </div> 
+                    </div> -->
                     <div id="Client" class="case-images-section">
                      <img alt="Learn how Krause Studio Developed and Designed" src="/assets/imgs/girl01.jpg" sizes="100vw" srcset="/assets/imgs/girl01.jpg 500w, /assets/imgs/girl01.jpg 1080w, /assets/imgs/girl01.jpg 1250w" class="gallery-image-large-natural"/>
-                     <div class="right-head">
-                       <h1 class="outlined-white _5-right-margin">model</h1>
-                       <h1 class="outlined-white">002</h1>
-                     </div>
+                     <a href="#meet"><div class="right-head">
+                       <h1 class=" _5-right-margin" style="font-weight: 100;">Laura</h1>
+                       <h1 class="" style="font-weight: 100;">↓</h1>
+                     </div></a>
                      
                      
                     </div>
-                    <div class="case-statement-section">
+                    <div id="meet" class="case-statement-section">
                      <h2 class="case-section-header outlined-black">Meet Laura</h2>
                      <div class="paragraph w-richtext">
                        <p>Her slim figure is a real eye-catcher and her skin is like velvet; soft and smooth. This elegant supermodel is not only beautiful, but she also has an enchanting charisma that makes men melt. Laura can put an entire room into a trance.
